@@ -1,0 +1,21 @@
+{
+  "name": "shipping-label-kit",
+  "version": "0.1.0",
+  "description": "Strict-by-default validation and normalization for shipping label data",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "shiplabel": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
